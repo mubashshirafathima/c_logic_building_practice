@@ -14,20 +14,20 @@
 
 // SOLUTION
 
-#include <stdio.h>
+#include <stdio.h> //header for printf anf scanf
 
-int power(int x, int n){
-    if(n==0){
-        return 1;
+int power(int x, int n){ //integer function with two int variables
+    if(n==0){ //checks if n is zero or not 
+        return 1;//if zero returns 1, this is known as base of the recursive function, basically a condition when to stop the recursive function. 
     }
     else{
-        return x*(power(x,n-1));
+        return x*(power(x,n-1)); //Give me the current number x, and multiply it by whatever the result is when I do this exact same math with one less n
     }
 }
 int main() {
-    int x, n;
-    scanf("%d %d", &x, &n);
+    int x, n; //var declarations
+    scanf("%d %d", &x, &n); //takes inputs for x and n from user
     
-    printf("%d", power(x, n));
+    printf("%d", power(x, n));//printing the final result of function. 
     return 0;
 }
