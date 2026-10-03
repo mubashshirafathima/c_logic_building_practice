@@ -1,5 +1,10 @@
 # C Programming & Logic Building Journey 
 
+DON'T WE ALL START SOMEWHERE??...👀...MY LOGIC BUILDING JOURNEY STARTED HERE...
+
+TBH......BELOW IS CHATGPT GENERATED CONTEXT...
+
+
 ____learning is not just theoretical. logic building and problem solving has to be the core coding skill. hence i m here to build even if its with errors ..even if they look like smallest steps____
 
 
